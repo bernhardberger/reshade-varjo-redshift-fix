@@ -46,7 +46,7 @@ You can edit your ReShade preset (e.g. `ReShadePreset.ini`) and add the followin
 the ReShade UI:
 
 ```ini
-[VarjoRedshift.fx]
+[VarjoCA.fx]
 offsetBlue=-0.115
 offsetRed=0.085
 ```
