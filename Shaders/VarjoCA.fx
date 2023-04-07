@@ -64,8 +64,8 @@ float4 chromaticAberrationCorrectionPS(float4 position : SV_POSITION, float2 tex
     float2 correctionOrigin = float2(0.1565, 0.42); // Correction origin for left eye, 
 													// hardcoded for Varjo Aero, Varjo VR-3 and XR-3 (only Stereo Mode supported)
 
-    float blueOffset = offsetRed/100 + 1.000;
-	float redOffset = offsetBlue/100 + 1.000;
+        float redOffset = offsetRed/100 + 1.000;
+	float blueOffset = offsetBlue/100 + 1.000;
 	float greenOffset = 1;
 	
 	if (texcoord.x < 0.5) {
